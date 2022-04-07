@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Evil of Frankenstein';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Evil of Frankenstein'), url('../fonts/EvilofFrankenstein.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family:'Evil of Frankenstein';
+    font-weight:normal;
+    font-size:42px;
+    padding: 2rem;
+}
+
+body{
+    width: 90vh;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+header{
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header ul{
+    padding: 2rem 0;
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    padding: 0 .5rem;
+}
+header ul li a{
+    padding: .5rem .5rem;
+    text-transform: uppercase;
+    color:#00244D;
+    text-decoration: none;
+    font-weight: 600;
+}
+header ul li a:hover{
+    color:#601317;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+section img{
+    width: 30vh;
+    cursor: pointer;
+}
+
+section a{
+    color:#000;
+    
+}
+section a:hover{
+    color:#00244D;
+    
+}
+
+section div{
+    padding: 2rem 0;
+}
+section div p:first-child{
+    line-height: normal !important;
+}
+section div p:nth-child(2) {
+    line-height: 2rem;
+    padding: 1rem 0;
+}
+section div p.img-description{
+    font-size: 80%;
+}
+
+footer{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer div{
+    width: 100%;
+    text-align: center;
+}
